@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+  }
+  .imagen1{
+    width: 90px;
+    height: 80px;
+    float: left;
+    
+  }
+  .lista1{
+    
+    font-size: 30px;
+    
+    font-family: 'Pathway Gothic One', sans-serif;;
+    
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: right;
+        
+        
+        }
+    
+    .nav li a{
+    
+    color: black;
+    text-decoration: none;
+    padding: 10px 10PX;
+    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    
+
+
+
+    width: 400px;
+    height: 50px;
+    }
+    .nav > li{
+        float: left;
+        
+    }
+    .nav li a:hover{
+        background-color: blue;
+    }
+    .nav li ul{
+        display: none;
+        position: absolute;
+        min-width: 140px;
+        
+    }
+    .nav li:hover ul{
+        display: block;
+        
+    }
+    .nav li ul li{
+        position: relative;
+    }
+    .nav li ul li ul{
+        right: -140px;
+        top: 0px;
+        
+    }
+    .header{
+display: flex;
+justify-content: space-between;
+
+    display: flex;
+    justify-content: space-between;
+    
+    height: 720px;
+    }
+    .contenedor-slider{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-around;
+      }
+      
+      .contenedor-slider img{
+        width: 30%;
+        margin-bottom: 80px;
+      }
+      main{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      
+      
+      .contenedor-parrafo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contenedor-parrafo a{
+        text-decoration: none;
+        color: red;
+        padding: 15px 30px;
+          background-color: beige;
+          border-style: solid;
+          border-color: blue;
+          display: flex;
+          justify-content: right;
+        
+          border-radius: 50px;
+          text-transform: uppercase;
+      }
+      
+p{
+    font-size: 30px;
+color: green;
+}
+      
+      .contenedor-imagen-parrafo{
+        width: 300px;
+        height: 300px;
+        float: right;
+      }
+      .contenedor-imagen-parrafo img{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        
+      }
+      body{
+        background: url(fotografo-paisajes.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    #boton{
+      font-size: 20px;
+      padding: 10px;
+      margin: 20px;
+      
+      
+    }
+      
+    
